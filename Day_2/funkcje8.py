@@ -65,7 +65,9 @@ def add_zip():
 print(add_zip())
 
 # Start
-# Czas wykoania funkcji add_without_np: 1.7584948539733887
+# Czas wykoania funkcji add_without_np: 1.4499270915985107
 # OK
-# Czas wykoania funkcji add_np: 0.053809404373168945
+# Czas wykoania funkcji add_np: 0.05194878578186035
 # OK np
+# Czas wykoania funkcji add_zip: 1.2633895874023438
+# OK zip
