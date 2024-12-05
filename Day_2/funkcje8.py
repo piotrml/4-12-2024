@@ -56,6 +56,14 @@ def add_np():
     res = array1 + array2
     return "OK np"
 print(add_np())
+
+@meas_time
+def add_zip():
+    res = [a+b for a,b in zip(lista1,lista2)]
+    return "OK zip"
+
+print(add_zip())
+
 # Start
 # Czas wykoania funkcji add_without_np: 1.7584948539733887
 # OK
