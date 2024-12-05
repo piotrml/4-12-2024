@@ -2,6 +2,8 @@
 # lambda jako funkcja anonimowa (bez nazwy, bez wcześniejszej deklaracji - uzywamy w miejscu deklaracji)
 # lambda ma zawsze return
 
+from funtools import reduce
+
 def liczymy(x, y):
     return x * y
 
@@ -52,3 +54,5 @@ print(f'Uzycie filtr() {list(filter(lambda x: x < 50, lista))}')
 # Uzycie filtr() [1, 2, 6, 15]
 print(f'Uzycie filtr() {list(filter(lambda x: 10 < x < 50, lista))}')
 # Uzycie filtr() [15]
+
+# reduce
